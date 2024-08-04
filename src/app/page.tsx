@@ -187,10 +187,10 @@ export default function Home() {
         {/* Sessão dos projetos. */}
         <section
           id="projetos"
-          className="md:flex flex-col justify-between items-center body w-full md:pt-14 pt-10 p-2"
+          className="lg:flex flex-col justify-between items-center body w-full md:pt-14 pt-10 p-2"
         >
           <h2 className="text-[1.1rem]  text-center">Projetos</h2>
-          <div className="md:flex justify-center items-center gap-6 md:px-5 md:min-w-[45%] ">
+          <div className="lg:flex justify-center items-center gap-6 md:px-5 lg:min-w-[45%] ">
             <CardProjeto
               nome="M&A Marmores e Granitos."
               descrição="Este projeto foi desenvolvido para um cliente, com uma área de dashboard para adiministrar a equipe da empresa, utilizando as seguintes tecnologias."
@@ -234,7 +234,7 @@ export default function Home() {
               whats="https://wa.me/5519982350898?text=Ol%C3%A1%20eu%20v%C3%AD%20seu%20portifolio."
             />
           </div>
-          <div className="md:flex justify-center items-center gap-6 md:px-5 md:min-w-[45%]">
+          <div className="lg:flex justify-center items-center gap-6 md:px-5 lg:min-w-[45%]">
             <CardProjeto
               im1={martinez[0]}
               im2={martinez[1]}
