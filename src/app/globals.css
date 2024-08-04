@@ -33,6 +33,13 @@
   --fontIntermediaria: Open Sans, sans-serif;
 }
 
+.background {
+  background-image: url('/public/base.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh; /* ou o tamanho que desejar */
+}
 
 .body {
   background: linear-gradient(

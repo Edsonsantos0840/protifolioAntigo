@@ -26,7 +26,7 @@ export default function Carrossel(props: PropsCarrossel) {
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
           >
             {props.images.map((src, index) => (
-              <div className='md:min-w-full ease-in duration-500' key={index}>
+              <div className='min-w-full ease-in duration-500' key={index}>
                 <Image src={src} alt={`Imagem ${index }` } className='w-full block ease-in duration-500' />
               </div>
             ))}
