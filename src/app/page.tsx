@@ -76,13 +76,13 @@ export default function Home() {
           </Link>
         </div>
       </nav>
-      <div className="w-full md:pt-10">
+      <div className="w-full md:pt-10 lg:pt-0">
         {/* Sessão do head do site. */}
         <section
           id="inicio "
           className="md:flex flex-col justify-around items-center body2  w-full  "
         >
-          <div className="flex justify-around lg:justify-center lg:gap-2 items-center p-2 body w-full md:px-5 md:py-24">
+          <div className="flex justify-around lg:justify-center lg:gap-2 items-center p-2 body w-full md:px-5 md:py-24 ">
             <div className=" hidden md:flex justify-center items-center w-[120px] h-[120px] md:w-[250px] md:h-[250px] bg-[#00ffff] hover:scale-105 p-1 rounded-full">
               <Image
                 src={perfil}
