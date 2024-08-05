@@ -285,38 +285,38 @@ export default function Home() {
           className="md:flex flex-col justify-around items-center text-center body2 w-full p-2 pt-10 md:pt-14"
         >
           <div className="lg:w-[60%] md:flex flex-col justify-center items-center body2 w-full">
-            <h2 className="text-[var(--corPrincipalEnd)] text-[1.1rem]">Tecnologias</h2>
-            <h3 className="text-[var(--corPrincipalEnd)] text-[1.4rem]">
+            <h2 className="text-[var(--corPrincipalEnd)] text-[1.1rem] md:text-[1.6rem]">Tecnologias</h2>
+            <h3 className="text-[var(--corPrincipalEnd)] text-[1.4rem] md:text-[1.5rem]">
               Tecnologias que tenho me dedicado.
             </h3>
-            <p className="text-[var(--corPrincipalEnd)] text-center md:my-3 text-[1rem]">
+            <p className="text-[var(--corPrincipalEnd)] text-center md:my-3 text-[1rem] md:text-[1.4rem]">
               Eu tenho me identificado bastante com as tecnologias Front-end.
               Procuro me dedicar as tecnologias mais utilizadas no mercado no
               momento, mas meu fóco é de não me limitar.
             </p>
             <div className="body w-[100vw] lg:w-[98vw] text-center p-3 md:p-4">
-              <h3 className=" md:my-5 text-[1.4rem]">Minhas Habilidades Hoje.</h3>
+              <h3 className=" md:my-5 text-[1.4rem] md:text-[1.5rem]">Minhas Habilidades Hoje.</h3>
               <div className="flex justify-center items-center gap-3 md:gap-6 mt-2 md:mt-2">
                 <div className="group bg-[var(--base)] text-[var(--corPrincipalEnd)] p-2 md:p-2 text-6xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
-                  <FaHtml5 className="text-5xl" />
+                  <FaHtml5 className="text-5xl md:text-8xl" />
                   <h3 className="hidden md:block md:mt-1 text-[.6rem] text-[var(--corPrincipalEnd)] group-hover:text-[var(--base)] ">
                     HTML
                   </h3>
                 </div>
                 <div className="group bg-[var(--base)] text-[var(--corPrincipalEnd)] p-2 md:p-2 text-6xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
-                  <FaCss3Alt className="text-5xl" />
+                  <FaCss3Alt className="text-5xl md:text-8xl" />
                   <h3 className="hidden md:block md:mt-1 text-[.6rem] text-[var(--corPrincipalEnd)] group-hover:text-[var(--base)] ">
                     CSS
                   </h3>
                 </div>
                 <div className="group bg-[var(--base)] text-[var(--corPrincipalEnd)] p-2 md:p-2 text-6xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
-                  <TbBrandJavascript className="text-5xl"/>
+                  <TbBrandJavascript className="text-5xl md:text-8xl"/>
                   <h3 className="hidden md:block md:mt-1 text-[.6rem] text-[var(--corPrincipalEnd)] group-hover:text-[var(--base)] ">
                     JAVASCRIPT
                   </h3>
                 </div>
                 <div className="group bg-[var(--base)] text-[var(--corPrincipalEnd)] p-2 md:p-2 text-6xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
-                  <FaReact className="text-5xl"/>
+                  <FaReact className="text-5xl md:text-8xl"/>
                   <h3 className="hidden md:block md:mt-1 text-[.6rem] text-[var(--corPrincipalEnd)] group-hover:text-[var(--base)] ">
                     REACT
                   </h3>
@@ -324,25 +324,25 @@ export default function Home() {
               </div>
               <div className="flex justify-center items-center gap-3 md:gap-6 mt-3 md:mt-4">
                 <div className="group bg-[var(--base)] text-[var(--corPrincipalEnd)] p-2 md:p-2 text-6xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
-                  <TbBrandNextjs className="text-5xl"/>
+                  <TbBrandNextjs className="text-5xl md:text-8xl"/>
                   <h3 className="hidden md:block md:mt-1 text-[.6rem] text-[var(--corPrincipalEnd)] group-hover:text-[var(--base)] ">
                     NEXTJS
                   </h3>
                 </div>
                 <div className="group bg-[var(--base)] text-[var(--corPrincipalEnd)] p-2 md:p-2 text-6xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
-                  <TbBrandTypescript className="text-5xl"/>
+                  <TbBrandTypescript className="text-5xl md:text-8xl"/>
                   <h3 className="hidden md:block md:mt-1 text-[.6rem] text-[var(--corPrincipalEnd)] group-hover:text-[var(--base)] ">
                     TYPESCRIPT
                   </h3>
                 </div>
                 <div className="group bg-[var(--base)] text-[var(--corPrincipalEnd)] p-2 md:p-2 text-6xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
-                  <TbBrandTailwind className="text-5xl"/>
+                  <TbBrandTailwind className="text-5xl md:text-8xl"/>
                   <h3 className="hidden md:block md:mt-1 text-[.6rem] text-[var(--corPrincipalEnd)] group-hover:text-[var(--base)] ">
                     TAILWIND
                   </h3>
                 </div>
                 <div className="group bg-[var(--base)] text-[var(--corPrincipalEnd)] p-2 md:p-2 text-6xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
-                  <TbBrandMongodb className="text-5xl"/>
+                  <TbBrandMongodb className="text-5xl md:text-8xl"/>
                   <h3 className="hidden md:block md:mt-1 text-[.6rem] text-[var(--corPrincipalEnd)] group-hover:text-[var(--base)] ">
                     MONGODB
                   </h3>
@@ -350,12 +350,12 @@ export default function Home() {
               </div>
               <div className="flex justify-center items-center gap-3 md:gap-6 mt-3 md:mt-4">
                 <div className="group bg-[var(--base)] text-[var(--corPrincipalEnd)] md:p-2 text-6xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
-                  <div className="w-[60px] h-[60px] rounded-full hover:scale-105">
+                  <div className="w-[60px] h-[60px] md:w-[90px] md:h-[90px] rounded-full hover:scale-105">
                     <Image
                       src={nextAuth}
                       alt="Foto de perfil"
-                      width={60}
-                      height={60}
+                      width={90}
+                      height={90}
                       className=" rounded-full"
                     />
                   </div>
@@ -364,12 +364,12 @@ export default function Home() {
                   </h3>
                 </div>
                 <div className="group bg-[var(--base)] text-[var(--corPrincipalEnd)] md:p-2 text-6xl rounded-lg shadow-md hover:bg- [--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
-                  <div className="w-[60px] h-[60px] rounded-full hover:scale-105  group">
+                  <div className="w-[60px] h-[60px] md:w-[90px] md:h-[90px] rounded-full hover:scale-105  group">
                     <Image
                       src={prisma}
                       alt="Foto de perfil"
-                      width={60}
-                      height={60}
+                      width={90}
+                      height={90}
                       className=" rounded-full"
                     />
                   </div>
@@ -378,10 +378,10 @@ export default function Home() {
                   </h3>
                 </div>
               </div>
-              <h3 className=" my-5 md:mt-14 text-[1.4rem]">Tecnologias que estou estudando.</h3>
+              <h3 className=" my-5 md:mt-14 text-[1.4rem] md:text-[1.5rem]">Tecnologias que estou estudando.</h3>
               <div className="flex justify-center items-center">
-                <div className="group bg-[var(--base)] w-[18%]  md:w-[10%] md:my-6 text-[var(--corPrincipalEnd)] p-2 md:p-2 text-8xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
-                  <FaNodeJs className="text-5xl"/>
+                <div className="group bg-[var(--base)] w-[18%] md:w-[15%]  lg:w-[10%] md:my-6 text-[var(--corPrincipalEnd)] p-2 md:p-2 text-8xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
+                  <FaNodeJs className="text-5xl md:text-8xl"/>
                   <h3 className="hidden md:block md:mt-1 text-[.6rem] text-[var(--corPrincipalEnd)] group-hover:text-[var(--base)] ">
                     NODEJS
                   </h3>
@@ -395,13 +395,13 @@ export default function Home() {
           id="contato"
           className="flex md:flex flex-col justify-around text-center items-center body2 w-full pt-10 md:pt-14"
         >
-          <h2 className="text-[var(--corPrincipalEnd)] my-1 md:my-3 text-[1.1rem]">
+          <h2 className="text-[var(--corPrincipalEnd)] my-1 md:my-3 text-[1.1rem] md:text-[1.6rem]">
             Meus contatos
           </h2>
-          <h3 className="text-[var(--corPrincipalEnd)] my-1 md:my-3 text-[1.4rem] ">
+          <h3 className="text-[var(--corPrincipalEnd)] my-1 md:my-3 text-[1.4rem] md:text-[1.5rem] ">
             Quer me conhecer melhor?
           </h3>
-          <p className="text-[var(--corPrincipalEnd)] mt-[-5px]  md:my-1 text-[1rem]">
+          <p className="text-[var(--corPrincipalEnd)] mt-[-5px]  lg:my-1 text-[1rem] md:text-[1.4rem]">
             Entre em contato comigo.
           </p>
           <div className="flex justify-center items-center gap-4 md:gap-6 my-2 md:my-8">
@@ -410,7 +410,7 @@ export default function Home() {
                 text-[var(--base)] bg-[var(--corPrincipalEnd)] hover:text-[var(--corPrincipalEnd)] hover:bg-[var(--opacityAlert)]"
             >
               <Link href={'https://github.com/Edsonsantos0840'} target="_blank">
-              <FaGithubSquare className="text-5xl"/>
+              <FaGithubSquare className="text-5xl md:text-8xl"/>
               </Link> 
             </div>
             <div
@@ -418,7 +418,7 @@ export default function Home() {
                 text-[var(--base)] bg-[var(--corPrincipalEnd)] hover:text-[var(--corPrincipalEnd)] hover:bg-[var(--opacityAlert)]"
             >
               <Link href={'https://www.linkedin.com/in/edsonpsantos/'} target="_blank">
-              <FaLinkedin className="text-5xl"/>
+              <FaLinkedin className="text-5xl md:text-8xl"/>
               </Link> 
             </div>
             <div
@@ -426,7 +426,7 @@ export default function Home() {
                 text-[var(--base)] bg-[var(--corPrincipalEnd)] hover:text-[var(--corPrincipalEnd)] hover:bg-[var(--opacityAlert)]"
             >
               <Link href={'https://wa.me/5519982350898?text=Ol%C3%A1%20eu%20v%C3%AD%20seu%20portifolio.'} target="_blank">
-              <FaWhatsapp className="text-5xl"/>
+              <FaWhatsapp className="text-5xl md:text-8xl"/>
               </Link> 
             </div>
             <div
@@ -434,26 +434,26 @@ export default function Home() {
                   text-[var(--base)] bg-[var(--corPrincipalEnd)] hover:text-[var(--corPrincipalEnd)] hover:bg-[var(--opacityAlert)] "
             >
               <Link href="mailto:edsonpsantos@gmail.com">
-                <TfiEmail className="hover:text-[var(--corPrincipalEnd)] text-5xl " />
+                <TfiEmail className="hover:text-[var(--corPrincipalEnd)] text-5xl md:text-8xl " />
               </Link>
             </div>
           </div>
         </section>
         <div className="p-2 w-[100vw] lg:w-[98vw] flex flex-col justify-center items-center md:gap-2 mt-2 body ">
-          <h3 className=" md:mt-5 text-[1.4rem]">Esse sou eu.</h3>
-          <p className="text-[var(--base)] text-center md:mt-[-10px] text-[1rem]">
+          <h3 className=" md:mt-5 text-[1.4rem] md:text-[1.5rem]">Esse sou eu.</h3>
+          <p className="text-[var(--base)] text-center md:mt-[-10px] text-[1rem] md:text-[1.4rem]">
             Espero que tenha gostado, aguardo seu contato.
           </p>
 
           <div className="flex justify-center items-center gap-3 md:gap-4 my-1 md:my-4">
           <Link href={'https://github.com/Edsonsantos0840' } target="_blank">
-            <FaGithubSquare className="hover:text-white hover:scale-125 text-[var(--base2)] md: rounded-lg shadow-md cursor-pointer ease-in duration-500 text-2xl" />
+            <FaGithubSquare className="hover:text-white hover:scale-125 text-[var(--base2)] md: rounded-lg shadow-md cursor-pointer ease-in duration-500 text-2xl md:text-4xl" />
           </Link> 
             <Link href={'https://www.linkedin.com/in/edsonpsantos/'} target="_blank">
-            <FaLinkedin className="hover:text-white hover:scale-125 text-[var(--base2)] md: rounded-lg shadow-md cursor-pointer ease-in duration-500 text-2xl" />
+            <FaLinkedin className="hover:text-white hover:scale-125 text-[var(--base2)] md: rounded-lg shadow-md cursor-pointer ease-in duration-500 text-2xl md:text-4xl" />
             </Link> 
             <Link href={'https://wa.me/5519982350898?text=Ol%C3%A1%20eu%20v%C3%AD%20seu%20portifolio.'} target="_blank">
-            <FaWhatsapp className="hover:text-white hover:scale-125 text-[var(--base2)] md: rounded-lg shadow-md cursor-pointer ease-in duration-500 text-2xl" />
+            <FaWhatsapp className="hover:text-white hover:scale-125 text-[var(--base2)] md: rounded-lg shadow-md cursor-pointer ease-in duration-500 text-2xl md:text-4xl" />
             </Link> 
           </div>
         </div>

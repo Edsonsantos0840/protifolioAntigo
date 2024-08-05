@@ -20,7 +20,7 @@ export default function Carrossel(props: PropsCarrossel) {
       }, []);
     
       return (
-        <div className='md:w-[80%] m-auto overflow-hidden relative hover:scale-110'>
+        <div className='lg:w-[80%] m-auto overflow-hidden relative hover:scale-110'>
           <div
             className='flex ease-in duration-500'
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
