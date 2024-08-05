@@ -20,7 +20,7 @@ import {
 } from "react-icons/tb";
 import { TfiEmail } from "react-icons/tfi";
 //Componentes.
-import perfil from "../../public/foto.png";
+import perfil from "../../public/capa.png";
 import apresentaçao from "../../public/um pouco.png";
 import nextAuth from "../../public/NextAuth (2).png";
 import prisma from "../../public/Prima ORM.png";
@@ -82,7 +82,7 @@ export default function Home() {
           className="md:flex flex-col justify-around items-center body2  w-full  "
         >
           <div className="flex justify-around items-center p-2 body w-full md:px-5 md:py-24">
-            <div className="hidden md:block w-[120px] h-[120px] md:w-[250px] md:h-[250px] rounded-full hover:scale-105">
+            <div className="hidden md:block w-[120px] h-[120px] md:w-[250px] md:h-[250px] rounded-lg hover:scale-105">
               <Image
                 src={perfil}
                 alt="Foto de perfil"
@@ -282,7 +282,7 @@ export default function Home() {
         {/* Sessão de Tecnologias */}
         <section
           id="tecnologias"
-          className="md:flex flex-col justify-around items-center text-center body2 w-full pt-10 md:pt-14"
+          className="md:flex flex-col justify-around items-center text-center body2 w-full p-2 pt-10 md:pt-14"
         >
           <div className="md:w-[60%] md:flex flex-col justify-center items-center body2 w-full">
             <h2 className="text-[var(--corPrincipalEnd)] text-[1.1rem]">Tecnologias</h2>

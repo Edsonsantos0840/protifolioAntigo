@@ -31,7 +31,7 @@ export default function CardProjeto(props: PropsCardProjeto) {
 
   return (
     <>
-      <div className="flex flex-col justify-between items-center shadow-lg bg-[var(--corFundo)] text-center  md:p-4 my-5 md:min-w-[45vw] md:min-h-[380px] ">
+      <div className="flex flex-col justify-between items-center shadow-lg bg-[var(--corFundo)] text-center p-2  md:p-4 my-5 md:min-w-[45vw] md:min-h-[380px] ">
 
         <div className="flex flex-col justify-between items-center md:w-[100%] ">
           <div className="flex flex-col md:flex md:justify-around items-center md:my-4 md:gap-2 md:w-[100%]">
