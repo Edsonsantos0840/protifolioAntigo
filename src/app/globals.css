@@ -50,7 +50,7 @@
     var(--base);
 }
 .body3 {
-  background: radial-gradient(circle, rgba(255,255,255,1) 10%, var(--corError) 70%);
+  background: radial-gradient(circle, rgba(255,255,255,1) 30%, var(--corError) 70%);
 }
 
 @layer utilities {
