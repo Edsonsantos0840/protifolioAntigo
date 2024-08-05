@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col  relative w-full">
       {/* Área de navegação do topo. */}
-      <nav className="fixed flex justify-start p-2 md:justify-around items-center shadow-lg w-[100vw] bg-[#0f172af7]  z-20">
+      <nav className="hidden fixed md:flex justify-start p-2 md:justify-around items-center shadow-lg w-[100vw] bg-[#0f172af7]  z-20">
         <div className="hidden md:block" >
           <h3 className="font-especial hover:scale-105 ease-in duration-300">
             EPS Soluções
@@ -161,12 +161,12 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col md:flex justify-between items-center my-4 lg:w-[80%]">
-            <div className="w-[200px] h-[200px]  md:h-[350px] hover:scale-105 md:w-[40%]">
+            <div className="w-[300px] h-[300px] md:h-[400px] hover:scale-105 md:w-[40%]">
               <Image
                 src={apresentaçao}
                 alt="Foto de perfil"
-                width={350}
-                height={350}
+                width={400}
+                height={400}
                 className=" "
               />
             </div>
