@@ -161,7 +161,7 @@ export default function Home() {
               expectativas.
             </p>
           </div>
-          <div className="flex flex-col md:flex justify-between items-center my-4 lg:w-[80%]">
+          <div className="flex flex-col md:flex justify-between items-center my-4 lg:w-[80%] md:p-3">
              <div className="flex justify-around items-center w-full" >
              <div className=" w-[350px] h-[350px] md:h-[500px] lg:h-[350px] lg:w-[350px] hover:scale-105 md:w-[500px] my-2 ">
               <Image
