@@ -294,7 +294,7 @@ export default function Home() {
               Procuro me dedicar as tecnologias mais utilizadas no mercado no
               momento, mas meu fóco é de não me limitar.
             </p>
-            <div className="body lg:w-[98vw] text-center p-3 md:p-4">
+            <div className="body w-[100vw] lg:w-[98vw] text-center p-3 md:p-4">
               <h3 className=" md:my-5 text-[1.4rem]">Minhas Habilidades Hoje.</h3>
               <div className="flex justify-center items-center gap-3 md:gap-6 mt-2 md:mt-2">
                 <div className="group bg-[var(--base)] text-[var(--corPrincipalEnd)] p-2 md:p-2 text-6xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
@@ -439,7 +439,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <div className="p-2 lg:w-[98vw] flex flex-col justify-center items-center md:gap-2 mt-2 body ">
+        <div className="p-2 w-[100vw] lg:w-[98vw] flex flex-col justify-center items-center md:gap-2 mt-2 body ">
           <h3 className=" md:mt-5 text-[1.4rem]">Esse sou eu.</h3>
           <p className="text-[var(--base)] text-center md:mt-[-10px] text-[1rem]">
             Espero que tenha gostado, aguardo seu contato.
