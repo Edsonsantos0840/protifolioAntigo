@@ -182,7 +182,7 @@ export default function Home() {
               />
             </div>
              </div>
-            <div className="lg:w-[60%] text-center">
+            <div className=" md:w-[90%] lg:w-[60%] text-center">
               <h3 className="text-[var(--corTexto2)] text-[1.4rem] md:text-[1.5rem] my-4  ">
                 Mais um pouco sobre mim.
               </h3>
