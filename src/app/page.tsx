@@ -119,13 +119,13 @@ export default function Home() {
           </div>
           <div className="flex flex-col justify-center items-center p-2 lg:w-[60%]  md:m-5 md:gap-2">
             {/* <Carrossel/> */}
-            <h3 className="text-[var(--corPrincipalEnd)]  text-[1.1rem]  ">
+            <h3 className="text-[var(--corPrincipalEnd)]  text-[1.1rem] md:text-[1.5rem]  ">
               Eu Posso te ajudar.
             </h3>
-            <h3 className="text-[var(--corTexto2)]  text-[1.3rem] text-center my-1">
+            <h3 className="text-[var(--corTexto2)]  text-[1.3rem] md:text-[1.6rem] text-center my-1">
               <AnimaTexto texto="Tenho habilidades em HTML, CSS, JavaScript, TypeScript, React, NextJs, Tailwind CSS, Mongo DB, NextAuth e Prima ORM ." />
             </h3>
-            <p className="text-[var(--corPrincipalEnd)] text-[1rem] text-center ">
+            <p className="text-[var(--corPrincipalEnd)] text-[1rem] md:text-[1.4rem]text-center ">
               Desenvolvo interfaces web intuitivas e responsivas, que
               proporcionam uma excelente experiência do usuário. Crio designs
               modernos e atraentes, combinando estética e funcionalidade para
