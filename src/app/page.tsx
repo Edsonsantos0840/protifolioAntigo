@@ -161,7 +161,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col md:flex justify-between items-center my-4 lg:w-[80%]">
-            <div className="w-[350px] h-[350px] md:h-[500px] hover:scale-105 md:w-[40%]">
+            <div className="w-[350px] h-[350px] md:h-[500px] hover:scale-105 md:w-[40%] my-2">
               <Image
                 src={apresentaçao}
                 alt="Foto de perfil"
