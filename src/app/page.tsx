@@ -92,10 +92,10 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col items-center">
-              <h1 className="text-[2.2rem] text[3.625rem]">
+              <h1 className="text-[2.2rem] md:text[3.625rem]">
                 <AnimaTexto texto="Sou Edson Santos." />
               </h1>
-              <p className="text-mdm text-xl">Desenvolvedor Front-End</p>
+              <p className="text-md md:text-xl">Desenvolvedor Front-End</p>
               <div className="flex justify-center items-center gap-3 md:gap-6 pb-3 mt-2">
                 <div className=" md:p-2 text-6xl rounded-sm md:rounded-lg shadow-md hover:scale-125 cursor-pointer ease-in duration-500 bg-[var(--base)] hover:bg-[--corPrincipalEnd]">
                  <Link href={'https://github.com/Edsonsantos0840'} target="_blank" className=" text-[var(--corPrincipalEnd)]  hover:text-[var(--base)] ">
@@ -117,7 +117,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center p-2 md:w-[60%]  md:m-5 md:gap-2">
+          <div className="flex flex-col justify-center items-center p-2 lg:w-[60%]  md:m-5 md:gap-2">
             {/* <Carrossel/> */}
             <h3 className="text-[var(--corPrincipalEnd)]  text-[1.1rem]  ">
               Eu Posso te ajudar.
@@ -141,7 +141,7 @@ export default function Home() {
           id="sobre"
           className="md:flex flex-col justify-around items-center body2 w-full p-2 pt-9 md:pt-14"
         >
-          <div className=" md:w-[70%] text-center md:px-5 my-1 md:my-[-35px]">
+          <div className=" lg:w-[70%] text-center md:px-5 my-1 md:my-[-35px]">
             <h3 className="text-[var(--corTexto2)] md:my-4 text-[1.4rem]">Quem sou eu?</h3>
             <h2 className="text-[var(--corTexto2)] md:my-4 text-[1.1rem] ">
               Olá, Sou Edson Santos
@@ -160,7 +160,7 @@ export default function Home() {
               expectativas.
             </p>
           </div>
-          <div className="flex flex-col md:flex justify-between items-center my-4 md:w-[80%]">
+          <div className="flex flex-col md:flex justify-between items-center my-4 lg:w-[80%]">
             <div className="w-[200px] h-[200px]  md:h-[350px] hover:scale-105 md:w-[40%]">
               <Image
                 src={apresentaçao}
@@ -170,7 +170,7 @@ export default function Home() {
                 className=" "
               />
             </div>
-            <div className="md:w-[60%] text-center">
+            <div className="lg:w-[60%] text-center">
               <h3 className="text-[var(--corTexto2)] text-[1.4rem] my-4  ">
                 Mais um pouco sobre mim.
               </h3>
@@ -189,7 +189,7 @@ export default function Home() {
           id="projetos"
           className="lg:flex flex-col justify-between items-center body w-full md:pt-14 pt-10 p-2"
         >
-          <h2 className="text-[1.1rem]  text-center">Projetos</h2>
+          <h2 className="text-[1.6rem]  text-center">Projetos</h2>
           <div className="lg:flex justify-center items-center gap-6 md:px-5 lg:min-w-[45%] ">
             <CardProjeto
               nome="M&A Marmores e Granitos."
