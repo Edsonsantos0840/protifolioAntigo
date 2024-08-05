@@ -22,6 +22,7 @@ import { TfiEmail } from "react-icons/tfi";
 //Componentes.
 import perfil from "../../public/capa.png";
 import apresentaçao from "../../public/um pouco.png";
+import apresentaçao2 from "../../public/EPS_files/9.png";
 import nextAuth from "../../public/NextAuth (2).png";
 import prisma from "../../public/Prima ORM.png";
 import AnimaTexto from "./components/display/AnimaTexto";
@@ -81,34 +82,34 @@ export default function Home() {
           id="inicio "
           className="md:flex flex-col justify-around items-center body2  w-full  "
         >
-          <div className="flex justify-around items-center p-2 body w-full md:px-5 md:py-24">
-            <div className="hidden md:block w-[120px] h-[120px] md:w-[250px] md:h-[250px] rounded-lg hover:scale-105">
+          <div className="flex justify-around lg:justify-center lg:gap-2 items-center p-2 body w-full md:px-5 md:py-24">
+            <div className=" hidden md:flex justify-center items-center w-[120px] h-[120px] md:w-[250px] md:h-[250px] bg-[#00ffff] hover:scale-105 p-1 rounded-full">
               <Image
                 src={perfil}
                 alt="Foto de perfil"
-                width={250}
-                height={250}
-                className=" rounded-full"
+                width={245}
+                height={245}
+                className=" rounded-full md:max-h-[245px]"
               />
             </div>
             <div className="flex flex-col items-center">
               <h1 className="text-[2.2rem] md:text-[3rem] lg:text[3.625rem]">
                 <AnimaTexto texto="Sou Edson Santos." />
               </h1>
-              <p className="text-md md:text-[1.8rem] lg:text-xl">Desenvolvedor Front-End</p>
+              <p className="text-md md:text-[1.8rem] lg:text-2xl">Desenvolvedor Front-End</p>
               <div className="flex justify-center items-center gap-3 md:gap-6 pb-3 mt-2">
-                <div className=" md:p-2 text-6xl md:text-7xl rounded-sm md:rounded-lg shadow-md hover:scale-125 cursor-pointer ease-in duration-500 bg-[var(--base)] hover:bg-[--corPrincipalEnd]">
+                <div className=" md:p-2 text-6xl md:text-7xl lg:text-5xl rounded-sm md:rounded-lg shadow-md hover:scale-125 cursor-pointer ease-in duration-500 bg-[var(--base)] hover:bg-[--corPrincipalEnd]">
                  <Link href={'https://github.com/Edsonsantos0840'} target="_blank" className=" text-[var(--corPrincipalEnd)]  hover:text-[var(--base)] ">
                  <FaGithubSquare />
                  </Link> 
                 </div>
-                <div className="bg-[var(--base)] text-[var(--corPrincipalEnd)] md:p-2 text-6xl md:text-7xl rounded-sm md:rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
+                <div className="bg-[var(--base)] text-[var(--corPrincipalEnd)] md:p-2 text-6xl md:text-7xl lg:text-5xl rounded-sm md:rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
                 <Link href={'https://www.linkedin.com/in/edsonpsantos/'} target="_blank" className=" text-[var(--corPrincipalEnd)]  hover:text-[var(--base)] 
                 ">
                   <FaLinkedin />
                 </Link> 
                 </div>
-                <div className="bg-[var(--base)] text-[var(--corPrincipalEnd)] md:p-2 text-6xl md:text-7xl rounded-sm md:rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
+                <div className="bg-[var(--base)] text-[var(--corPrincipalEnd)] md:p-2 text-6xl md:text-7xl lg:text-5xl rounded-sm md:rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
                 <Link href={'https://wa.me/5519982350898?text=Ol%C3%A1%20eu%20v%C3%AD%20seu%20portifolio.'} target="_blank" className=" text-[var(--corPrincipalEnd)]  hover:text-[var(--base)] 
                 ">
                   <FaWhatsapp />
@@ -125,7 +126,7 @@ export default function Home() {
             <h3 className="text-[var(--corTexto2)]  text-[1.3rem] md:text-[1.6rem] text-center my-1">
               <AnimaTexto texto="Tenho habilidades em HTML, CSS, JavaScript, TypeScript, React, NextJs, Tailwind CSS, Mongo DB, NextAuth e Prima ORM ." />
             </h3>
-            <p className="text-[var(--corPrincipalEnd)] text-[1rem] md:text-[1.4rem] text-center ">
+            <p className="text-[var(--corPrincipalEnd)] text-[1rem] md:text-[1.4rem] lg:text-[1rem]  text-center ">
               Desenvolvo interfaces web intuitivas e responsivas, que
               proporcionam uma excelente experiência do usuário. Crio designs
               modernos e atraentes, combinando estética e funcionalidade para
@@ -146,7 +147,7 @@ export default function Home() {
             <h2 className="text-[var(--corTexto2)] md:my-4 text-[1.1rem] md:text-[1.6rem] ">
               Olá, Sou Edson Santos
             </h2>
-            <p className="text-[var(--corTexto2)] md:my-4 text-[1rem] md:text-[1.4rem]">
+            <p className="text-[var(--corTexto2)] md:my-4 text-[1rem] md:text-[1.4rem] lg:text-[1rem] lg:md:text-[1rem]">
               Sempre fui apaixonado por tecnologia, e tudo que diz respeito a
               tecnologia me encanta. Passei muito tempo acreditando que a área
               da programação não era para mim, por conta do pouco tempo que
@@ -161,7 +162,8 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col md:flex justify-between items-center my-4 lg:w-[80%]">
-            <div className="w-[350px] h-[350px] md:h-[500px] hover:scale-105 md:w-[40%] my-2">
+             <div className="flex justify-around items-center w-full" >
+             <div className=" w-[350px] h-[350px] md:h-[500px] lg:h-[350px] lg:w-[350px] hover:scale-105 md:w-[500px] my-2 ">
               <Image
                 src={apresentaçao}
                 alt="Foto de perfil"
@@ -170,11 +172,21 @@ export default function Home() {
                 className=" "
               />
             </div>
+            <div className="hidden md:block  md:h-[400px] hover:scale-105 md:w-[400px] my-2 body3 ">
+              <Image
+                src={apresentaçao2}
+                alt="Foto de perfil"
+                width={500}
+                height={500}
+                className=" "
+              />
+            </div>
+             </div>
             <div className="lg:w-[60%] text-center">
               <h3 className="text-[var(--corTexto2)] text-[1.4rem] md:text-[1.5rem] my-4  ">
                 Mais um pouco sobre mim.
               </h3>
-              <p className="text-[var(--corTexto2)] my-4 text-[1rem] md:text-[1.4rem]">
+              <p className="text-[var(--corTexto2)] my-4 text-[1rem] md:text-[1.4rem] lg:text-[1rem]">
                 Além de ser muito esforçado e focado nos meus objetivos, tenho
                 muita facilidade de lidar com pessoas e trabalhar em equipe.
                 Trabalhei bastante tempo como representante comercial. Uma parte
@@ -289,7 +301,7 @@ export default function Home() {
             <h3 className="text-[var(--corPrincipalEnd)] text-[1.4rem] md:text-[1.5rem]">
               Tecnologias que tenho me dedicado.
             </h3>
-            <p className="text-[var(--corPrincipalEnd)] text-center md:my-3 text-[1rem] md:text-[1.4rem]">
+            <p className="text-[var(--corPrincipalEnd)] text-center md:my-3 text-[1rem] md:text-[1.4rem] lg:text-[1rem]">
               Eu tenho me identificado bastante com as tecnologias Front-end.
               Procuro me dedicar as tecnologias mais utilizadas no mercado no
               momento, mas meu fóco é de não me limitar.
@@ -364,7 +376,7 @@ export default function Home() {
                   </h3>
                 </div>
                 <div className="group bg-[var(--base)] text-[var(--corPrincipalEnd)] md:p-2 text-6xl rounded-lg shadow-md hover:bg- [--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500">
-                  <div className="w-[60px] h-[60px] md:w-[90px] md:h-[90px] rounded-full hover:scale-105  group">
+                  <div className="w-[60px] h-[60px] md:w-[90px] md:h-[90px] rounded-full hover:scale-105  group ">
                     <Image
                       src={prisma}
                       alt="Foto de perfil"
@@ -401,7 +413,7 @@ export default function Home() {
           <h3 className="text-[var(--corPrincipalEnd)] my-1 md:my-3 text-[1.4rem] md:text-[1.5rem] ">
             Quer me conhecer melhor?
           </h3>
-          <p className="text-[var(--corPrincipalEnd)] mt-[-5px]  lg:my-1 text-[1rem] md:text-[1.4rem]">
+          <p className="text-[var(--corPrincipalEnd)] mt-[-5px]  lg:my-1 text-[1rem] md:text-[1.4rem] lg:text-[1rem]">
             Entre em contato comigo.
           </p>
           <div className="flex justify-center items-center gap-4 md:gap-6 my-2 md:my-8">
@@ -410,7 +422,7 @@ export default function Home() {
                 text-[var(--base)] bg-[var(--corPrincipalEnd)] hover:text-[var(--corPrincipalEnd)] hover:bg-[var(--opacityAlert)]"
             >
               <Link href={'https://github.com/Edsonsantos0840'} target="_blank">
-              <FaGithubSquare className="text-5xl md:text-8xl"/>
+              <FaGithubSquare className="text-5xl md:text-8xl lg:text-7xl"/>
               </Link> 
             </div>
             <div
@@ -418,7 +430,7 @@ export default function Home() {
                 text-[var(--base)] bg-[var(--corPrincipalEnd)] hover:text-[var(--corPrincipalEnd)] hover:bg-[var(--opacityAlert)]"
             >
               <Link href={'https://www.linkedin.com/in/edsonpsantos/'} target="_blank">
-              <FaLinkedin className="text-5xl md:text-8xl"/>
+              <FaLinkedin className="text-5xl md:text-8xl lg:text-7xl"/>
               </Link> 
             </div>
             <div
@@ -426,7 +438,7 @@ export default function Home() {
                 text-[var(--base)] bg-[var(--corPrincipalEnd)] hover:text-[var(--corPrincipalEnd)] hover:bg-[var(--opacityAlert)]"
             >
               <Link href={'https://wa.me/5519982350898?text=Ol%C3%A1%20eu%20v%C3%AD%20seu%20portifolio.'} target="_blank">
-              <FaWhatsapp className="text-5xl md:text-8xl"/>
+              <FaWhatsapp className="text-5xl md:text-8xl lg:text-7xl"/>
               </Link> 
             </div>
             <div
@@ -434,14 +446,14 @@ export default function Home() {
                   text-[var(--base)] bg-[var(--corPrincipalEnd)] hover:text-[var(--corPrincipalEnd)] hover:bg-[var(--opacityAlert)] "
             >
               <Link href="mailto:edsonpsantos@gmail.com">
-                <TfiEmail className="hover:text-[var(--corPrincipalEnd)] text-5xl md:text-8xl " />
+                <TfiEmail className="hover:text-[var(--corPrincipalEnd)] text-5xl md:text-8xl lg:text-7xl " />
               </Link>
             </div>
           </div>
         </section>
         <div className="p-2 w-[100vw] lg:w-[98vw] flex flex-col justify-center items-center md:gap-2 mt-2 body ">
           <h3 className=" md:mt-5 text-[1.4rem] md:text-[1.5rem]">Esse sou eu.</h3>
-          <p className="text-[var(--base)] text-center md:mt-[-10px] text-[1rem] md:text-[1.4rem]">
+          <p className="text-[var(--base)] text-center md:mt-[-10px] text-[1rem] md:text-[1.4rem] lg:text-[1rem]">
             Espero que tenha gostado, aguardo seu contato.
           </p>
 
