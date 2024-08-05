@@ -46,7 +46,7 @@ export default function CardProjeto(props: PropsCardProjeto) {
             <Carrossel images={imagens}/>
           </div>
           <div className="flex justify-between items-center w-[100%] gap-2 shadow-md my-3 ">
-          <div className="bg-[var(--opacitySucess)] p-2 md:p-4 flex flex-col justify-between items-center shadow-md hover:scale-105  hover:bg-[var(--opacityError)] rounded-md min-h-[12vh] min-w-[29vw] md:min-h-[19vw] md:w-[33%]">
+          <div className="bg-[var(--opacitySucess)] p-2 md:p-4 flex flex-col justify-between items-center shadow-md hover:scale-105  hover:bg-[var(--opacityError)] rounded-md min-h-[16vh] min-w-[29vw] md:min-h-[19vw] md:w-[33%]">
             <h3 className="text-[var(--base)] text-[1rem] md:text-[1.3rem] md:my-2 ">
                {props.tec1}
             </h3>
@@ -54,7 +54,7 @@ export default function CardProjeto(props: PropsCardProjeto) {
             <BotaoInvertido texto="Site"/>
             </Link>
           </div>
-          <div className="bg-[var(--opacitySucess)] p-2 md:p-4 flex flex-col justify-between items-center shadow-md hover:scale-105  hover:bg-[var(--opacityError)] rounded-md min-h-[12vh] min-w-[29vw] md:min-h-[19vw] md:w-[33%]">
+          <div className="bg-[var(--opacitySucess)] p-2 md:p-4 flex flex-col justify-between items-center shadow-md hover:scale-105  hover:bg-[var(--opacityError)] rounded-md min-h-[16vh] min-w-[29vw] md:min-h-[19vw] md:w-[33%]">
           <h3 className="text-[var(--base)] text-[1rem] md:text-[1.3rem] md:my-2 ">
               {props.tec2}
             </h3>
@@ -62,7 +62,7 @@ export default function CardProjeto(props: PropsCardProjeto) {
             <BotaoInvertido texto="Github"/>
             </Link>
           </div>
-          <div className="bg-[var(--opacitySucess)] p-2 md:p-4 flex flex-col justify-between items-center shadow-md hover:scale-105  hover:bg-[var(--opacityError)] rounded-md min-h-[12vh] min-w-[29vw] md:min-h-[19vw] md:w-[33%]">
+          <div className="bg-[var(--opacitySucess)] p-2 md:p-4 flex flex-col justify-between items-center shadow-md hover:scale-105  hover:bg-[var(--opacityError)] rounded-md min-h-[16vh] min-w-[29vw] md:min-h-[19vw] md:w-[33%]">
           <h3 className="text-[var(--base)] text-[1rem] md:text-[1.3rem] md:my-2 ">
              {props.tec3}
             </h3> 
