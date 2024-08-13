@@ -16,10 +16,17 @@ export default function AnimaTexto(props: PropsAnimaTexto){
       const timeoutId = setTimeout(() => {
         setContainText((prev) => prev + props.texto[index]);
         setIndex((prevIndex) => prevIndex + 1);
-      }, 100); // Tempo em milissegundos para cada letra aparecer
+      }, 150); // Tempo em milissegundos para cada letra aparecer
       return () => clearTimeout(timeoutId);
     }
-  }, [index, props.texto]);
+    else if(index == containText.length){
+      var limpa = setTimeout(() => {
+        setContainText('')
+        setIndex(0)
+      },3000 )
+      return () => clearTimeout(limpa)
+    }
+  }, [containText.length, index, props.texto]);
 
   return (
     <>
