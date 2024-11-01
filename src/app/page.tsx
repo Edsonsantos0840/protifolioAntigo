@@ -281,11 +281,11 @@ export default function Home() {
             im10={brasilCard[1]}
             im11={brasilCard[0]}
               nome="BrasilCard."
-              descrição="Projeto passando por atualizações."
-              tec1="Em Breve."
-              tec2="Em Breve."
-              tec3="Em Breve."
-               site="/aguarde"
+              descrição="Este projeto foi desenvolvido para alguns representantes da empresa Brasilcard, utilizando as seguintes tecnologias."
+              tec1="React."
+              tec2="Next.Js."
+              tec3="Tailwind Css."
+               site="https://cartao-marca-propria-sc71.vercel.app/"
               git="/aguarde"
               whats="https://wa.me/5519982350898?text=Ol%C3%A1%20eu%20v%C3%AD%20seu%20portifolio."
             />
