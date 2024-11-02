@@ -286,7 +286,7 @@ export default function Home() {
               tec2="Next.Js."
               tec3="Tailwind Css."
                site="https://cartao-marca-propria-sc71.vercel.app/"
-              git="/aguarde"
+              git="https://github.com/Edsonsantos0840/cartao-marca-propria"
               whats="https://wa.me/5519982350898?text=Ol%C3%A1%20eu%20v%C3%AD%20seu%20portifolio."
             />
           </div>
