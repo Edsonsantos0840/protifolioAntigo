@@ -85,7 +85,7 @@ export default function Home() {
           <div className="flex justify-around lg:justify-center lg:gap-2 items-center p-2 body w-full md:px-5 md:py-24 ">
             <div className=" hidden md:flex justify-center items-center w-[120px] h-[120px] md:w-[250px] md:h-[250px] bg-[#00ffff] hover:scale-105 p-1 rounded-full">
               <Image
-                src={perfil}
+                src='/capa.png'
                 alt="Foto de perfil"
                 width={245}
                 height={245}
