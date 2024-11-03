@@ -7,11 +7,11 @@ export default function CardApresentação() {
       className="md:flex flex-col justify-around items-center body2 w-full p-2 pt-9 md:pt-14"
     >
       {/* Sessão de apresentação pessoal.  */}
-      <div className=" lg:w-[70%] text-center md:px-5 my-1 md:my-[-35px]">
-        <h3 className="text-[var(--corTexto2)] md:my-4 text-[1.4rem] md:text-[1.5rem]">
+      <div className=" lg:w-[80%] text-center md:px-5 my-1 md:my-[-35px]">
+        <h3 className="text-[var(--corTexto2)] md:my-4 text-[1.4rem] md:text-[1.5rem] lg:text-[1.8rem]">
           Quem sou eu?
         </h3>
-        <h2 className="text-[var(--corTexto2)] md:my-4 text-[1.1rem] md:text-[1.6rem] ">
+        <h2 className="text-[var(--corTexto2)] md:my-4 text-[1.1rem] md:text-[1.6rem] lg:text-[1.9rem]">
           Olá, Sou Edson Santos
         </h2>
         <p className="text-[var(--corTexto2)] md:my-4 text-[1rem] md:text-[1.4rem] lg:text-[1.3rem] lg:md:text-[1rem]">
@@ -47,10 +47,10 @@ export default function CardApresentação() {
           </div>
         </div>
         <div className=" md:w-[90%] lg:w-[60%] text-center">
-          <h3 className="text-[var(--corTexto2)] text-[1.4rem] md:text-[1.5rem] my-4  ">
+          <h3 className="text-[var(--corTexto2)] text-[1.4rem] md:text-[1.5rem] lg:text-[1.8rem] my-4  ">
             Mais um pouco sobre mim.
           </h3>
-          <p className="text-[var(--corTexto2)] my-4 text-[1rem] md:text-[1.4rem] lg:text-[1rem]">
+          <p className="text-[var(--corTexto2)] my-4 text-[1rem] md:text-[1.4rem] lg:text-[1.3rem] ">
             Além de ser muito esforçado e focado nos meus objetivos, tenho muita
             facilidade de lidar com pessoas e trabalhar em equipe. Trabalhei
             bastante tempo como representante comercial. Uma parte desse tempo

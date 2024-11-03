@@ -43,23 +43,23 @@ export default function CardProjeto(props: PropsCardProjeto): JSX.Element {
 
   return (
     <>
-      <div className="alinha shadow-lg bg-[var(--corFundo)] text-center p-2  md:p-4 my-5 md:min-w-[45vw] md:min-h-[380px] lg:min-h-[575px] ">
+      <div className="alinha shadow-lg bg-gray-200 text-center p-2  md:p-4 my-5 md:min-w-[45vw] md:min-h-[380px] lg:min-h-[575px]  rounded-lg">
         <div className="alinha md:w-[100%] ">
           <div className="flex flex-col md:flex md:justify-around items-center md:my-4 md:gap-2 md:w-[100%]">
             <div className="w-full lg:w-[100%]">
-              <h3 className="text-[var(--base)]  md:my-2 text-[1.3rem] md:text-[1.5rem] lg:text-[1.3rem] my-2">
+              <h3 className="text-[var(--corPrincipal)]  md:my-2 text-[1.3rem] md:text-[1.5rem] lg:text-[1.8rem] my-2">
                 {props.nome}
               </h3>
-              <p className="text-[var(--base)] text-[1rem] md:text-[1.4rem] lg:text-[1rem] my-2 ">
+              <p className="text-[var(--corPrincipal)] text-[1rem] md:text-[1.4rem] lg:text-[1.2rem] my-2 ">
                 {props.descrição}
               </p>
             </div>
             <Carrossel images={imagens} />
           </div>
-          <div className="alinha2 w-[100%] gap-2 shadow-md my-3 ">
+          <div className="alinha2 w-full gap-2 shadow-md my-3  ">
             <div className="conTec ">
               <h3 className="tec ">{props.tec1}</h3>
-              <Link href={props.site} target="_blank" className=" w-[103%]">
+              <Link href={props.site} target="_blank" className=" w-full">
                 <BotaoInvertido texto="Site" />
               </Link>
             </div>

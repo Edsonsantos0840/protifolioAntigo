@@ -6,8 +6,8 @@ import { brasilCard } from "../listas/ListaBrasilcard";
 
 export default function CardProjetoSessao(): JSX.Element {
   return (
-    <section id="projetos" className="lg:alinha body w-full md:pt-14 pt-10 p-2">
-      <h2 className="text-[1.6rem]  text-center">Projetos</h2>
+    <section id="projetos" className="lg:alinha   w-full md:pt-14 pt-10 p-2">
+      <h2 className="text-[1.6rem] lg:text-[1.8rem] text-[var(--corPrincipal)] font-serif text-center ">Projetos</h2>
       {/* Sessão dos projetos. */}
       <div className="contProjeto ">
         <CardProjeto
@@ -53,7 +53,7 @@ export default function CardProjetoSessao(): JSX.Element {
           whats="https://wa.me/5519982350898?text=Ol%C3%A1%20eu%20v%C3%AD%20seu%20portifolio."
         />
       </div>
-      <div className="contProjeto">
+      <div className="contProjeto ">
         <CardProjeto
           im1={martinez[0]}
           im2={martinez[1]}
