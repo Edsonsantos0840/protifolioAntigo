@@ -65,13 +65,13 @@ export default function CardProjeto(props: PropsCardProjeto): JSX.Element {
             </div>
             <div className="conTec ">
               <h3 className="tec ">{props.tec2}</h3>
-              <Link href={props.git} target="_blank" className=" md:w-[103%]">
+              <Link href={props.git} target="_blank" className=" w-full">
                 <BotaoInvertido texto="Github" />
               </Link>
             </div>
-            <div className="conTec ">
+            <div className="conTec hidden ">
               <h3 className="tec ">{props.tec3}</h3>
-              <Link href={props.whats} target="_blank" className=" md:w-[103%]">
+              <Link href={props.whats} target="_blank" className=" w-full ">
                 <BotaoInvertido texto="Fale Comigo" />
               </Link>
             </div>

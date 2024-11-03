@@ -11,7 +11,7 @@ export default function CardHeader(): JSX.Element {
   return (
     <section
       id="inicio "
-      className="md:flex flex-col justify-around items-center body2  w-full  "
+      className="md:flex flex-col justify-around items-center body2  w-full   "
     >
       {/* Sessão do head do site. */}
       <div className="flex justify-around lg:justify-center lg:gap-2 items-center p-2 body w-full md:px-5 md:py-24 ">
@@ -64,7 +64,7 @@ export default function CardHeader(): JSX.Element {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center p-2 lg:w-[80%]  md:m-5 md:gap-2">
+      <div className="flex flex-col justify-center items-center p-2 w-full lg:w-[80%]  md:m-5 md:gap-2">
         {/* <Carrossel/> */}
         <h3 className="text-[var(--corPrincipalEnd)]  text-[1.1rem] md:text-[1.5rem] lg:text-[1.8rem]  ">
           Eu Posso te ajudar.
@@ -83,6 +83,7 @@ export default function CardHeader(): JSX.Element {
             "https://wa.me/5519982350898?text=Ol%C3%A1%20eu%20v%C3%AD%20seu%20portifolio."
           }
           target="_blank"
+          className="w-full"
         >
           <Botao texto="Fale Comigo" />
         </Link>

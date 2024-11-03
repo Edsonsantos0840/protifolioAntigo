@@ -4,7 +4,7 @@ export default function CardApresentação() {
   return (
     <section
       id="sobre"
-      className="md:flex flex-col justify-around items-center body2 w-full p-2 pt-9 md:pt-14"
+      className="md:flex flex-col justify-around items-center body2 w-full p-2 alinha3 mt-0 md:pt-14"
     >
       {/* Sessão de apresentação pessoal.  */}
       <div className=" lg:w-[80%] text-center md:px-5 my-1 md:my-[-35px]">
@@ -27,7 +27,7 @@ export default function CardApresentação() {
           esforçar ao máximo, para satisfazer as expectativas.
         </p>
       </div>
-      <div className="flex flex-col md:alinha2 my-4 lg:w-[80%] md:p-3">
+      <div className="flex flex-col md:alinha2 mt-4 lg:w-[80%] md:p-3">
         <div className="flex justify-around items-center w-full">
           <div className=" w-[350px] h-[350px] md:h-[400px] lg:h-[350px] lg:w-[350px] hover:scale-105 md:w-[400px] my-2 ">
             <Image
