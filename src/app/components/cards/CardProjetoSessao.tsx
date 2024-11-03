@@ -25,8 +25,8 @@ export default function CardProjetoSessao(): JSX.Element {
           im10={marmore[9]}
           im11={marmore[10]}
           tec1="React e Tailwinds Css."
-          tec2="TypeScript, NextAuth e NextJs."
-          tec3="Prisma ORM e Mongo Db."
+          tec2="TypeScript e Next.Js."
+          tec3="Prisma e Mongo Db."
           site="https://ma-marmore-e-granito.vercel.app/"
           git="https://github.com/Edsonsantos0840/siteMarmoreDashboard"
           whats="https://wa.me/5519982350898?text=Ol%C3%A1%20eu%20v%C3%AD%20seu%20portifolio."
