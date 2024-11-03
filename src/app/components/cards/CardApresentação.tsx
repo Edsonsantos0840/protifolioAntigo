@@ -11,7 +11,7 @@ export default function CardApresentação() {
         <h3 className="text-[var(--corTexto2)] md:my-4 text-[1.4rem] md:text-[1.5rem] lg:text-[1.8rem]">
           Quem sou eu?
         </h3>
-        <h2 className="text-[var(--corTexto2)] md:my-4 text-[1.1rem] md:text-[1.6rem] lg:text-[1.9rem]">
+        <h2 className="text-[var(--corTexto2)] md:my-4 text-[1.3rem] md:text-[1.6rem] lg:text-[1.9rem]">
           Olá, Sou Edson Santos
         </h2>
         <p className="text-[var(--corTexto2)] md:my-4 text-[1rem] md:text-[1.4rem] lg:text-[1.3rem] lg:md:text-[1rem]">
