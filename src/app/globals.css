@@ -53,9 +53,42 @@
   background: radial-gradient(circle, rgba(255,255,255,1) 30%, var(--corError) 70%);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer components {
+  .alinha {
+    @apply flex flex-col justify-between items-center
+  }
+  .alinha2 {
+    @apply flex justify-between items-center
+  }
+  .alinha3 {
+    @apply flex justify-center items-center
+  }
+  .navLink {
+    @apply hover:bg-[var(--base)] hover:text-[var(--corPrincipal)] hover:scale-105 md:p-2 active:bg-[var(--base)] active:text-[var(--corPrincipal)] active:scale-105 ease-in duration-300
+  }
+  .headerLink {
+    @apply text-[var(--corPrincipalEnd)]  hover:text-[var(--base)]
+  }
+  .headerIcone {
+    @apply bg-[var(--base)] text-[var(--corPrincipalEnd)] md:p-2 text-6xl md:text-7xl lg:text-5xl rounded-sm md:rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500
+  }
+  .contProjeto {
+    @apply lg:flex justify-center items-center gap-6 md:px-5 lg:min-w-[45%]
+  }
+  .conTec {
+    @apply bg-[var(--opacitySucess)] p-2 md:p-4 flex flex-col justify-between items-center shadow-md hover:scale-105  hover:bg-[var(--opacityError)] rounded-md min-h-[16vh] min-w-[29vw] md:min-h-[19vw] lg:min-h-[23vh] lg:min-w-[9vw] md:w-[33%]
+  }
+  .tec {
+    @apply text-[var(--base)] text-[1rem] md:text-[1.3rem] lg:text-[1rem] md:my-2
+  }
+  .tecIcone {
+    @apply group bg-[var(--base)] text-[var(--corPrincipalEnd)] p-2 md:p-2 text-6xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500
+  }
+  .tecLetras {
+    @apply hidden md:block md:mt-1 text-[.6rem] text-[var(--corPrincipalEnd)] group-hover:text-[var(--base)]
+  }
+  .tecImg {
+    @apply group bg-[var(--base)] text-[var(--corPrincipalEnd)] md:p-2 text-6xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500
   }
 }
 
@@ -120,12 +153,7 @@ textarea:focus-visible {
   color: rgba(68, 0, 0, 0.486) ;
 }
 
-/* button{
-  font-family: var(--fontIntermediaria);
-  color: var(--base);
-  font-weight: 600;
-  margin: 10px 0px;
-} */
+
 
 textarea{
   border: 0.5px solid rgba(0, 0, 0, 0.144);
