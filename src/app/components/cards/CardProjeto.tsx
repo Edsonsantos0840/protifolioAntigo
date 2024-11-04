@@ -43,7 +43,7 @@ export default function CardProjeto(props: PropsCardProjeto): JSX.Element {
 
   return (
     <>
-      <div className="alinha shadow-lg bg-gray-200 text-center p-2  md:p-4 my-5 md:min-w-[45vw] md:min-h-[380px] lg:min-h-[575px]  rounded-lg">
+      <div className="alinha shadow-lg bg-gray-200 text-center p-2  md:p-4 my-5 md:min-w-[49vw] md:min-h-[380px] lg:min-h-[575px]  rounded-lg">
         <div className="alinha md:w-[100%] ">
           <div className="flex flex-col md:flex md:justify-around items-center md:my-4 md:gap-2 md:w-[100%]">
             <div className="w-full lg:w-[100%]">
