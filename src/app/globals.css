@@ -103,7 +103,7 @@
     @apply  p-2 md:p-2 text-7xl rounded-lg shadow-md  hover:scale-125 cursor-pointer ease-in duration-500 text-[var(--base)] bg-[var(--corPrincipalEnd)] hover:text-[var(--corPrincipalEnd)] hover:bg-[var(--corPrincipalEnd)]
   }
   .contatoIcones {
-    @apply text-5xl md:text-8xl lg:text-8xl
+    @apply text-5xl md:text-7xl lg:text-8xl
   }
   .footerIcones {
     @apply  hover:text-white hover:scale-125 text-[var(--base2)] md:rounded-lg shadow-md cursor-pointer ease-in duration-500 text-4xl md:text-4xl lg:text-6xl
