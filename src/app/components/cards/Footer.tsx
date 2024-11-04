@@ -4,10 +4,10 @@ import { FaGithubSquare, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 export default function Footer(): JSX.Element {
   return (
     <div className="p-2 w-[100vw] lg:w-[98vw] flex flex-col justify-center items-center md:gap-2 mt-2 body ">
-    <h3 className=" md:mt-5 text-[1.7rem] md:text-[1.5rem] lg:text-[1.9rem] font-bold ">
+    <h3 className=" md:mt-5 text-[1.7rem] md:text-[1.7rem] lg:text-[1.9rem] font-bold ">
       Esse sou eu.
     </h3>
-    <p className="text-white/.8 text-center md:mt-[-10px] text-[1.1rem] md:text-[1.4rem] lg:text-[1.3rem]">
+    <p className="text-white/.8 text-center md:mt-[-10px] text-[1.1rem] md:text-[1.5rem] lg:text-[1.3rem]">
       Espero que tenha gostado, aguardo seu contato.
     </p>
 

@@ -106,7 +106,7 @@
     @apply text-5xl md:text-7xl lg:text-8xl
   }
   .footerIcones {
-    @apply  hover:text-white hover:scale-125 text-[var(--base2)] md:rounded-lg shadow-md cursor-pointer ease-in duration-500 text-4xl md:text-4xl lg:text-6xl
+    @apply  hover:text-white hover:scale-125 text-[var(--base2)] md:rounded-lg shadow-md cursor-pointer ease-in duration-500 text-4xl md:text-6xl lg:text-6xl
   }
 }
 h1 {
