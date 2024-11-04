@@ -79,7 +79,7 @@
     @apply md:flex md:flex-col lg:flex-row justify-center items-center gap-6 md:px-5 lg:min-w-[45%]
   }
   .conTec {
-    @apply bg-[var(--corPrincipal)] p-2 md:p-4 lg:p-2 md:alinha shadow-md hover:scale-105  hover:bg-[var(--corPrincipalEnd)] rounded-md w-[49%] md:w-[33%] ease-in duration-500
+    @apply bg-[var(--corPrincipal)] p-2 md:p-4 lg:p-2 shadow-md hover:scale-105  hover:bg-[var(--corPrincipalEnd)] rounded-md w-[49%] md:w-[33%] ease-in duration-500
   }
   .tec {
     @apply text-[var(--base)]  text-[1rem] md:text-[1.3rem] lg:text-[1.1rem] md:my-2

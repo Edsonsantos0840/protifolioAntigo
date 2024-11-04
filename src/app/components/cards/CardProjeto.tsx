@@ -47,7 +47,7 @@ export default function CardProjeto(props: PropsCardProjeto): JSX.Element {
         <div className="alinha md:w-[100%] ">
           <div className="flex flex-col md:flex md:justify-around items-center md:my-4 md:gap-2 md:w-[100%]">
             <div className="w-full lg:w-[100%]">
-              <h3 className="text-[var(--corPrincipal)]  md:my-2 text-[1.3rem] md:text-[1.5rem] lg:text-[1.8rem] my-2">
+              <h3 className="text-[var(--corPrincipal)]  md:my-2 text-[1.3rem] md:text-[1.5rem] lg:text-[1.8rem] my-2 font-bold">
                 {props.nome}
               </h3>
               <p className="text-[var(--corPrincipal)] text-[1rem] md:text-[1.4rem] lg:text-[1.2rem] my-2 ">
@@ -69,7 +69,7 @@ export default function CardProjeto(props: PropsCardProjeto): JSX.Element {
                 <BotaoInvertido texto="Github" />
               </Link>
             </div>
-            <div className="conTec hidden ">
+            <div className="conTec hidden md:alinha ">
               <h3 className="tec ">{props.tec3}</h3>
               <Link href={props.whats} target="_blank" className=" w-full ">
                 <BotaoInvertido texto="Fale Comigo" />
