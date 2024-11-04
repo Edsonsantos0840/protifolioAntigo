@@ -69,7 +69,7 @@ export default function CardHeader(): JSX.Element {
         <h3 className="text-[var(--corPrincipalEnd)]  text-[1.1rem] md:text-[1.5rem] lg:text-[1.8rem]  ">
           Eu Posso te ajudar.
         </h3>
-        <h3 className="text-[var(--corTexto2)] font-serif text-[1.3rem] md:text-[1.6rem] lg:text-[1.9rem] text-center my-1">
+        <h3 className="text-[var(--corTexto2)] font-serif text-[1.3rem] md:text-[1.7rem] lg:text-[1.9rem] text-center my-1">
           <AnimaTexto texto="Tenho habilidades em HTML, CSS, JavaScript, TypeScript, React, NextJs, Tailwind CSS, Mongo DB, NextAuth e Prima ORM ." />
         </h3>
         <p className="text-[var(--corPrincipalEnd)] text-[1rem] md:text-[1.4rem] lg:text-[1.3rem]  text-center ">
@@ -83,7 +83,7 @@ export default function CardHeader(): JSX.Element {
             "https://wa.me/5519982350898?text=Ol%C3%A1%20eu%20v%C3%AD%20seu%20portifolio."
           }
           target="_blank"
-          className="w-full"
+          className="w-full md:w-[90%]"
         >
           <Botao texto="Fale Comigo" />
         </Link>
