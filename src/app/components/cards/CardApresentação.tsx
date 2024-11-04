@@ -4,7 +4,7 @@ export default function CardApresentação() {
   return (
     <section
       id="sobre"
-      className="body2 w-full md:alinha4 p-2 alinha3 mt-0 md:pt-14"
+      className="body2 w-full md:alinha4 p-2 alinha mt-0 md:pt-14"
     >
       {/* Sessão de apresentação pessoal.  */}
       <div className=" lg:w-[80%] text-center md:px-5 my-1 md:my-[-35px]">
