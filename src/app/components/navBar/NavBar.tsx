@@ -9,7 +9,7 @@ export default function NavBar() {
           EPS Soluções
         </h3>
       </div>
-      <div className="gap-2 alinha2 md:gap-6 md:text-xl lg:text-2xl">
+      <div className="gap-2 alinha2 md:gap-6 md:text-xl lg:text-2xl font-semibold">
         <Link href="#inicio" className="navLink">
           Início
         </Link>
