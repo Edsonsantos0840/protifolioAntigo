@@ -88,7 +88,7 @@
     @apply bg-[var(--base)] text-[var(--corPrincipalEnd)] p-2 md:p-2 text-6xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500
   }
   .tecIcone2 {
-    @apply text-7xl md:text-8xl lg:text-9xl
+    @apply text-7xl md:text-9xl lg:text-9xl
   }
   .tecLetras {
     @apply hidden md:block md:mt-1 text-[.6rem] lg:text-[1rem] text-[var(--corPrincipalEnd)] group-hover:text-[var(--base)]
@@ -97,7 +97,7 @@
     @apply  bg-[var(--base)] text-[var(--corPrincipalEnd)] md:p-2 text-6xl rounded-lg shadow-md hover:bg-[--corPrincipalEnd] hover:text-[var(--base)] hover:scale-125 cursor-pointer ease-in duration-500
   }
   .tecImg2 {
-    @apply  w-[90px] h-[90px] lg:w-[125px] rounded-full hover:scale-105
+    @apply  w-[90px] h-[90px] md:w-[125px] lg:w-[125px] rounded-full hover:scale-105
   }
   .contatoLink {
     @apply  p-2 md:p-2 text-7xl rounded-lg shadow-md  hover:scale-125 cursor-pointer ease-in duration-500 text-[var(--base)] bg-[var(--corPrincipalEnd)] hover:text-[var(--corPrincipalEnd)] hover:bg-[var(--corPrincipalEnd)]
