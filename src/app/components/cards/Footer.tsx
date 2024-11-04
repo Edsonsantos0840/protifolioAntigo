@@ -3,7 +3,7 @@ import { FaGithubSquare, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer(): JSX.Element {
   return (
-    <div className="p-2 w-[100vw] lg:w-[98vw] flex flex-col justify-center items-center md:gap-2 mt-2 body ">
+    <div className="body w-[100vw] lg:w-[98vw] alinha6 md:gap-2 mt-2 p-2 ">
     <h3 className=" md:mt-5 text-[1.7rem] md:text-[1.7rem] lg:text-[1.9rem] font-bold ">
       Esse sou eu.
     </h3>

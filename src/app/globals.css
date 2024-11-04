@@ -54,6 +54,9 @@
 }
 
 @layer components {
+  .btnPrincipal {
+    @apply rounded-md bg-[var(--corPrincipal)] text-[var(--base)] hover:bg-[var(--corPrincipalEnd)] hover:text-[var(--base)] hover:scale-105 shadow-md ease-in duration-300
+  }
   .alinha {
     @apply flex flex-col justify-between items-center
   }
@@ -65,6 +68,12 @@
   }
   .alinha4 {
     @apply flex flex-col justify-around items-center text-center
+  }
+  .alinha5 {
+    @apply flex justify-around items-center 
+  }
+  .alinha6 {
+    @apply flex flex-col justify-center items-center
   }
   .navLink {
     @apply hover:bg-[var(--base)] hover:text-[var(--corPrincipal)] hover:scale-105 md:p-2 active:bg-[var(--base)] active:text-[var(--corPrincipal)] active:scale-105 ease-in duration-300
@@ -103,7 +112,7 @@
     @apply  p-2 md:p-2 text-7xl rounded-lg shadow-md  hover:scale-125 cursor-pointer ease-in duration-500 text-[var(--base)] bg-[var(--corPrincipalEnd)] hover:text-[var(--corPrincipalEnd)] hover:bg-[var(--corPrincipalEnd)]
   }
   .contatoIcones {
-    @apply text-5xl md:text-7xl lg:text-8xl
+    @apply text-5xl md:text-7xl lg:text-7xl
   }
   .footerIcones {
     @apply  hover:text-white hover:scale-125 text-[var(--base2)] md:rounded-lg shadow-md cursor-pointer ease-in duration-500 text-4xl md:text-6xl lg:text-6xl

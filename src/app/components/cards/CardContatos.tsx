@@ -7,7 +7,7 @@ export default function CardContatos(): React.JSX.Element {
   return (
     <section
     id="contato"
-    className="alinha4 md:flex body2 w-full pt-10 md:pt-14"
+    className="alinha4 body2 w-full md:flex pt-10 md:pt-14"
   >
     {/* Sessão de Contatos */}
     <h2 className="text-[var(--corPrincipalEnd)] my-1 md:my-1 text-[1.6rem] md:text-[1.8rem] lg:text-[1.9rem]">

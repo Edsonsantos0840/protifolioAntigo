@@ -17,7 +17,7 @@ export default function CardTecnologia(): JSX.Element {
       className="md:alinha4 body2 w-full p-2 pt-10 md:pt-14"
     >
       {/* Sessão de Tecnologias */}
-      <div className="lg:w-[60%] md:flex flex-col justify-center items-center body2 w-full">
+      <div className="body2 w-full lg:w-[60%] md:alinha6">
         <h2 className="text-[var(--corPrincipalEnd)] text-[1.1rem] md:text-[1.6rem] lg:text-[1.9rem] text-center">
           Tecnologias
         </h2>

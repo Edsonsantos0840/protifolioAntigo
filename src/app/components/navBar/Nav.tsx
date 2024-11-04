@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Nav() {
   return (
-    <nav className="fixed flex justify-around items-center shadow-lg w-[100vw]">
+    <nav className="fixed w-[100vw] alinha5 shadow-lg ">
       <div>
         <h2>Logo</h2>
       </div>

@@ -6,7 +6,7 @@ import { brasilCard } from "../listas/ListaBrasilcard";
 
 export default function CardProjetoSessao(): JSX.Element {
   return (
-    <section id="projetos" className="lg:alinha   w-full md:pt-14 pt-10 p-2">
+    <section id="projetos" className="lg:alinha w-full md:pt-14 pt-10 p-2">
       <h2 className="text-[1.6rem] lg:text-[1.8rem] text-[var(--corPrincipal)] font-serif text-center ">Projetos</h2>
       {/* Sessão dos projetos. */}
       <div className="contProjeto ">
@@ -24,7 +24,7 @@ export default function CardProjetoSessao(): JSX.Element {
           im9={marmore[8]}
           im10={marmore[9]}
           im11={marmore[10]}
-          tec1="React e Tailwinds Css."
+          tec1="React e Tailwinds."
           tec2="TypeScript e Next.Js."
           tec3="Prisma e Mongo Db."
           site="https://ma-marmore-e-granito.vercel.app/"
