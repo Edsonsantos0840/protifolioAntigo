@@ -33,7 +33,7 @@ export default function CardProjetoSessao(): JSX.Element {
         />
         <CardProjeto
           nome="Espaço Emídio e Sá."
-          descrição="Projeto passando por atualizações."
+          descrição="Este projeto foi desenvolvido para uma cliente, utilizando as seguintes tecnologias."
           im1={emidio[0]}
           im2={emidio[1]}
           im3={emidio[2]}
@@ -45,11 +45,11 @@ export default function CardProjetoSessao(): JSX.Element {
           im9={emidio[4]}
           im10={emidio[0]}
           im11={emidio[1]}
-          tec1="Em Breve."
-          tec2="Em Breve."
-          tec3="Em Breve."
-          site="/aguarde"
-          git="/aguarde"
+          tec1="React."
+          tec2="Next.Js."
+          tec3="Tailwin Css."
+          site="https://emidio.vercel.app/"
+          git="https://github.com/Edsonsantos0840/emidio"
           whats="https://wa.me/5519982350898?text=Ol%C3%A1%20eu%20v%C3%AD%20seu%20portifolio."
         />
       </div>
