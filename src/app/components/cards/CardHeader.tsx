@@ -25,18 +25,18 @@ export default function CardHeader(): JSX.Element {
           />
         </div>
         <div className="alinha">
-          <h1 className="text-[2.2rem] md:text-[3rem] lg:text-5xl">
+          <h1 className="text-[2.2rem] md:text-[3rem] lg:text-4xl">
             <AnimaTexto texto="Sou Edson Santos." />
           </h1>
-          <p className="text-md md:text-[1.8rem] lg:text-2xl">
+          <p className="text-md md:text-[1.8rem] lg:text-xl">
             Desenvolvedor Front-End
           </p>
           <div className="alinha3 gap-3 md:gap-6 pb-3 mt-2">
-            <div className=" md:p-2 text-6xl md:text-6xl rounded-sm md:rounded-lg shadow-md hover:scale-125 cursor-pointer ease-in duration-500 bg-[var(--base)] hover:bg-[--corPrincipalEnd]">
+            <div className=" md:p-2 text-6xl lg:text-5xl rounded-sm md:rounded-lg shadow-md hover:scale-125 cursor-pointer ease-in duration-500 bg-[var(--base)] hover:bg-[--corPrincipalEnd]">
               <Link
                 href={"https://github.com/Edsonsantos0840"}
                 target="_blank"
-                className=" headerLink "
+                className=" headerLink lg:text-5xl"
               >
                 <FaGithubSquare />
               </Link>
@@ -45,7 +45,7 @@ export default function CardHeader(): JSX.Element {
               <Link
                 href={"https://www.linkedin.com/in/edsonpsantos/"}
                 target="_blank"
-                className=" headerLink md:text-6xl "
+                className=" headerLink md:text-6xl lg:text-5xl"
               >
                 <FaLinkedin />
               </Link>
@@ -56,7 +56,7 @@ export default function CardHeader(): JSX.Element {
                   "https://wa.me/5519982350898?text=Ol%C3%A1%20eu%20v%C3%AD%20seu%20portifolio."
                 }
                 target="_blank"
-                className=" headerLink md:text-6xl "
+                className=" headerLink md:text-6xl lg:text-5xl"
               >
                 <FaWhatsapp />
               </Link>
@@ -66,13 +66,13 @@ export default function CardHeader(): JSX.Element {
       </div>
       <div className=" w-full lg:w-[80%] alinha6 p-2 md:m-5 md:gap-2">
         {/* <Carrossel/> */}
-        <h3 className="text-[var(--corPrincipalEnd)] text-[1.1rem] md:text-[1.5rem] lg:text-[1.8rem]  ">
+        <h3 className="text-[var(--corPrincipalEnd)] text-[1.1rem] md:text-[1.5rem] lg:text-[1.4rem]  ">
           Eu Posso te ajudar.
         </h3>
-        <h3 className="text-[var(--corTexto2)] font-serif text-[1.3rem] md:text-[1.7rem] lg:text-[1.9rem] text-center my-1">
+        <h3 className="text-[var(--corTexto2)] font-serif text-[1.3rem] md:text-[1.7rem] lg:text-[1.6rem] text-center my-1">
           <AnimaTexto texto="Tenho habilidades em HTML, CSS, JavaScript, TypeScript, React, NextJs, Tailwind CSS, Mongo DB, NextAuth e Prima ORM ." />
         </h3>
-        <p className="text-[var(--corPrincipalEnd)] text-[1rem] md:text-[1.4rem] lg:text-[1.3rem]  text-center ">
+        <p className="text-[var(--corPrincipalEnd)] text-[1rem] md:text-[1.4rem] lg:text-[1rem]  text-center ">
           Desenvolvo interfaces web intuitivas e responsivas, que proporcionam
           uma excelente experiência do usuário. Crio designs modernos e
           atraentes, combinando estética e funcionalidade para alcançar os

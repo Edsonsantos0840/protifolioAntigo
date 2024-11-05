@@ -47,10 +47,10 @@ export default function CardProjeto(props: PropsCardProjeto): JSX.Element {
         <div className="alinha md:w-[100%] ">
           <div className="md:w-[100%] flex flex-col md:flex md:justify-around items-center md:my-4 md:gap-2">
             <div className="w-full lg:w-[100%]">
-              <h3 className="text-[var(--corPrincipal)] text-[1.3rem] md:text-[1.5rem] lg:text-[1.8rem] my-2 font-bold">
+              <h3 className="text-[var(--corPrincipal)] text-[1.3rem] md:text-[1.5rem] lg:text-[1.5rem] my-2 font-bold">
                 {props.nome}
               </h3>
-              <p className="text-[var(--corPrincipal)] text-[1rem] md:text-[1.4rem] lg:text-[1.2rem] my-2 ">
+              <p className="text-[var(--corPrincipal)] text-[1rem] md:text-[1.4rem] lg:text-[1rem] my-2 ">
                 {props.descrição}
               </p>
             </div>

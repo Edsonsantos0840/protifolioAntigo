@@ -18,19 +18,19 @@ export default function CardTecnologia(): JSX.Element {
     >
       {/* Sessão de Tecnologias */}
       <div className="body2 w-full lg:w-[60%] md:alinha6">
-        <h2 className="text-[var(--corPrincipalEnd)] text-[1.1rem] md:text-[1.6rem] lg:text-[1.9rem] text-center">
+        <h2 className="text-[var(--corPrincipalEnd)] text-[1.1rem] md:text-[1.6rem] lg:text-[1.5rem] text-center">
           Tecnologias
         </h2>
-        <h3 className="text-[var(--corPrincipalEnd)] text-[1.4rem] md:text-[1.5rem] lg:text-[1.8rem]">
+        <h3 className="text-[var(--corPrincipalEnd)] text-[1.4rem] md:text-[1.5rem] lg:text-[1.4rem]">
           Tecnologias que tenho me dedicado.
         </h3>
-        <p className="text-[var(--corPrincipalEnd)] text-center md:my-3 text-[1rem] md:text-[1.4rem] lg:text-[1.3rem]">
+        <p className="text-[var(--corPrincipalEnd)] text-center md:my-3 text-[1rem] md:text-[1.4rem] lg:text-[1rem]">
           Eu tenho me identificado bastante com as tecnologias Front-end.
           Procuro me dedicar as tecnologias mais utilizadas no mercado no
           momento, mas meu fóco é de não me limitar.
         </p>
         <div className="body w-[100vw] lg:w-[98vw] text-center p-3 md:p-4 ">
-          <h3 className=" md:my-5 text-[1.4rem] md:text-[1.5rem] lg:text-[1.9rem]">
+          <h3 className=" md:my-5 text-[1.4rem] md:text-[1.5rem] lg:text-[1.5rem]">
             Minhas Habilidades Hoje.
           </h3>
           <div className="alinha3 gap-3 md:gap-6 mt-2 md:mt-2">
@@ -69,7 +69,7 @@ export default function CardTecnologia(): JSX.Element {
               <h3 className="tecLetras ">MONGODB</h3>
             </div>
           </div>
-          <div className="alinha3 gap-3 md:gap-6 mt-3 md:mt-4">
+          {/* <div className="alinha3 gap-3 md:gap-6 mt-3 md:mt-4">
             <div className="tecImg group ">
               <div className="tecImg2">
                 <Image
@@ -94,8 +94,8 @@ export default function CardTecnologia(): JSX.Element {
               </div>
               <h3 className="tecLetras ">PRISMA</h3>
             </div>
-          </div>
-          <h3 className=" my-5 md:mt-14 text-[1.4rem] md:text-[1.5rem] lg:text-[1.9rem] ">
+          </div> */}
+          <h3 className=" my-5 md:mt-14 text-[1.4rem] md:text-[1.5rem] lg:text-[1.5rem] ">
             Tecnologias que estou estudando.
           </h3>
           <div className="alinha3 mb-3">

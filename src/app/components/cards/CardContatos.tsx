@@ -10,13 +10,13 @@ export default function CardContatos(): React.JSX.Element {
     className="alinha4 body2 w-full md:flex pt-10 md:pt-14"
   >
     {/* Sessão de Contatos */}
-    <h2 className="text-[var(--corPrincipalEnd)] my-1 md:my-1 text-[1.6rem] md:text-[1.8rem] lg:text-[1.9rem]">
+    <h2 className="text-[var(--corPrincipalEnd)] my-1 md:my-1 text-[1.6rem] md:text-[1.8rem] lg:text-[1.5rem]">
       Meus contatos
     </h2>
-    <h3 className="text-[var(--corPrincipalEnd)] my-1 md:my-1 text-[1.4rem] md:text-[1.7rem] lg:text-[1.8rem] ">
+    <h3 className="text-[var(--corPrincipalEnd)] my-1 md:my-1 text-[1.4rem] md:text-[1.7rem] lg:text-[1.4rem] ">
       Quer me conhecer melhor?
     </h3>
-    <p className="text-[var(--corPrincipalEnd)] mt-[-5px] lg:my-1 text-[1.2rem] md:text-[1.4rem] lg:text-[1.3rem]">
+    <p className="text-[var(--corPrincipalEnd)] mt-[-5px] lg:my-1 text-[1.2rem] md:text-[1.4rem] lg:text-[1.1rem]">
       Entre em contato comigo.
     </p>
     <div className="alinha3 gap-4 md:gap-6 my-2 md:my-8">

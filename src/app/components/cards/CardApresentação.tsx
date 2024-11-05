@@ -8,13 +8,13 @@ export default function CardApresentação() {
     >
       {/* Sessão de apresentação pessoal.  */}
       <div className=" lg:w-[80%] text-center md:px-5 my-1 md:my-[-35px]">
-        <h3 className="text-[var(--corTexto2)] text-[1.4rem] md:text-[1.5rem] lg:text-[1.8rem] md:my-4">
+        <h3 className="text-[var(--corTexto2)] text-[1.4rem] md:text-[1.5rem] lg:text-[1.6rem] md:my-4">
           Quem sou eu?
         </h3>
-        <h2 className="text-[var(--corTexto2)] text-[1.3rem] md:text-[1.6rem] lg:text-[1.9rem] md:my-4">
+        <h2 className="text-[var(--corTexto2)] text-[1.3rem] md:text-[1.6rem] lg:text-[1.7rem] md:my-4">
           Olá, Sou Edson Santos
         </h2>
-        <p className="text-[var(--corTexto2)] text-[1rem] md:text-[1.4rem] lg:text-[1.3rem] lg:md:text-[1rem] md:my-4">
+        <p className="text-[var(--corTexto2)] text-[1rem] md:text-[1.4rem] lg:text-[1.1rem] md:my-4">
           Sempre fui apaixonado por tecnologia, e tudo que diz respeito a
           tecnologia me encanta. Passei muito tempo acreditando que a área da
           programação não era para mim, por conta do pouco tempo que tinha para
@@ -47,10 +47,10 @@ export default function CardApresentação() {
           </div>
         </div>
         <div className=" md:w-[90%] lg:w-[60%] text-center">
-          <h3 className="text-[var(--corTexto2)] text-[1.4rem] md:text-[1.5rem] lg:text-[1.8rem] my-4  ">
+          <h3 className="text-[var(--corTexto2)] text-[1.4rem] md:text-[1.5rem] lg:text-[1.6rem] my-4  ">
             Mais um pouco sobre mim.
           </h3>
-          <p className="text-[var(--corTexto2)] my-4 text-[1rem] md:text-[1.4rem] lg:text-[1.3rem] ">
+          <p className="text-[var(--corTexto2)] my-4 text-[1rem] md:text-[1.4rem] lg:text-[1.1rem] ">
             Além de ser muito esforçado e focado nos meus objetivos, tenho muita
             facilidade de lidar com pessoas e trabalhar em equipe. Trabalhei
             bastante tempo como representante comercial. Uma parte desse tempo
