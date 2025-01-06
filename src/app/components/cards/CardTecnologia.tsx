@@ -1,5 +1,4 @@
-//Módulos.
-import Image from "next/image";
+
 //Ícones.
 import { FaCss3Alt, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa6";
 import {
@@ -9,28 +8,31 @@ import {
   TbBrandTailwind,
   TbBrandMongodb,
 } from "react-icons/tb";
+import Container from "../Container";
 
-export default function CardTecnologia(): JSX.Element {
+export default function CardTecnologia() {
   return (
     <section
       id="tecnologias"
       className="md:alinha4 body2 w-full p-2 pt-10 md:pt-14"
     >
       {/* Sessão de Tecnologias */}
-      <div className="body2 w-full lg:w-[60%] md:alinha6">
-        <h2 className="text-[var(--corPrincipalEnd)] text-[1.1rem] md:text-[1.6rem] lg:text-[1.5rem] text-center">
+      <div className="body2 w-full md:alinha6">
+        <Container>
+        <h2 className="text-[var(--corPrincipalEnd)] text-center">
           Tecnologias
         </h2>
-        <h3 className="text-[var(--corPrincipalEnd)] text-[1.4rem] md:text-[1.5rem] lg:text-[1.4rem]">
+        <h3 className="text-[var(--corPrincipalEnd)] text-center">
           Tecnologias que tenho me dedicado.
         </h3>
-        <p className="text-[var(--corPrincipalEnd)] text-center md:my-3 text-[1rem] md:text-[1.4rem] lg:text-[1rem]">
+        <p className="text-[var(--corPrincipalEnd)] text-justify md:my-3 ">
           Eu tenho me identificado bastante com as tecnologias Front-end.
           Procuro me dedicar as tecnologias mais utilizadas no mercado no
           momento, mas meu fóco é de não me limitar.
         </p>
-        <div className="body w-[100vw] lg:w-[98vw] text-center p-3 md:p-4 ">
-          <h3 className=" md:my-5 text-[1.4rem] md:text-[1.5rem] lg:text-[1.5rem]">
+        </Container>
+        <div className="body w-[100vw] lg:w-[99vw] text-center p-3 md:p-4 ">
+          <h3 className=" md:my-5">
             Minhas Habilidades Hoje.
           </h3>
           <div className="alinha3 gap-3 md:gap-6 mt-2 md:mt-2">
@@ -69,33 +71,8 @@ export default function CardTecnologia(): JSX.Element {
               <h3 className="tecLetras ">MONGODB</h3>
             </div>
           </div>
-          {/* <div className="alinha3 gap-3 md:gap-6 mt-3 md:mt-4">
-            <div className="tecImg group ">
-              <div className="tecImg2">
-                <Image
-                  src="/NextAuth (2).png"
-                  alt="Foto de perfil"
-                  width={90}
-                  height={90}
-                  className=" rounded-full m-auto bg-cover pb-2"
-                />
-              </div>
-              <h3 className="tecLetras ">NEXTAUTH</h3>
-            </div>
-            <div className="tecImg group ">
-              <div className="tecImg2  group ">
-                <Image
-                  src="/Prima ORM.png"
-                  alt="Foto de perfil"
-                  width={90}
-                  height={90}
-                  className=" rounded-full  m-auto bg-cover pb-2"
-                />
-              </div>
-              <h3 className="tecLetras ">PRISMA</h3>
-            </div>
-          </div> */}
-          <h3 className=" my-5 md:mt-14 text-[1.4rem] md:text-[1.5rem] lg:text-[1.5rem] ">
+        
+          <h3 className=" my-5 md:mt-14 ">
             Tecnologias que estou estudando.
           </h3>
           <div className="alinha3 mb-3">

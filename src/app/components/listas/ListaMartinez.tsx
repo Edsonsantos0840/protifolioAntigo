@@ -4,9 +4,7 @@ import im4 from '../../../../public/EPS_files/martinez4.png'
 import im5 from '../../../../public/EPS_files/martinez5.png'
 import im6 from '../../../../public/EPS_files/martinez6.png'
 import im3 from '../../../../public/EPS_files/martinez3.png'
-import { Images } from '@/types/img'
+import { StaticImageData } from 'next/image'
 
-export const martinez: Images[] = [
-    {im1, im2, im3, im4, im5, im6}
-]
+export const martinez: (StaticImageData | string)[] = [im1, im2, im3, im4, im5, im6]
 

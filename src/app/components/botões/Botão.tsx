@@ -1,9 +1,4 @@
-
-interface PropsBotao {
-    texto: string,
-    bgCor?: string;
-    textoCor?: string,
-}
+import { PropsBotao } from "@/app/interfaces";
 
 export default function Botao(props: PropsBotao) {
   return (

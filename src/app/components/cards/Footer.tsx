@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { FaGithubSquare, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
-export default function Footer(): JSX.Element {
+export default function Footer() {
   return (
     <div className="body w-[100vw] lg:w-[98vw] alinha6 md:gap-2 mt-2 p-2 ">
-    <h3 className=" md:mt-5 text-[1.7rem] md:text-[1.7rem] lg:text-[1.5rem] font-bold ">
+    <h3 className=" md:mt-5 font-bold ">
       Esse sou eu.
     </h3>
-    <p className="text-white/.8 text-center md:mt-[-10px] text-[1.1rem] md:text-[1.5rem] lg:text-[1rem]">
+    <p className="text-white/.8 text-center md:mt-[-10px]">
       Espero que tenha gostado, aguardo seu contato.
     </p>
 

@@ -3,23 +3,23 @@ import React from 'react'
 import { FaGithubSquare, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 import { TfiEmail } from 'react-icons/tfi'
 
-export default function CardContatos(): React.JSX.Element {
+export default function CardContatos() {
   return (
     <section
     id="contato"
     className="alinha4 body2 w-full md:flex pt-10 md:pt-14"
   >
     {/* Sessão de Contatos */}
-    <h2 className="text-[var(--corPrincipalEnd)] my-1 md:my-1 text-[1.6rem] md:text-[1.8rem] lg:text-[1.5rem]">
+    <h2 className="text-[var(--corPrincipalEnd)]  ">
       Meus contatos
     </h2>
-    <h3 className="text-[var(--corPrincipalEnd)] my-1 md:my-1 text-[1.4rem] md:text-[1.7rem] lg:text-[1.4rem] ">
+    <h3 className="text-[var(--corPrincipalEnd)] mb-6  ">
       Quer me conhecer melhor?
     </h3>
-    <p className="text-[var(--corPrincipalEnd)] mt-[-5px] lg:my-1 text-[1.2rem] md:text-[1.4rem] lg:text-[1.1rem]">
+    <p className="text-[var(--corPrincipalEnd)] mb-2 ">
       Entre em contato comigo.
     </p>
-    <div className="alinha3 gap-4 md:gap-6 my-2 md:my-8">
+    <div className="alinha3 gap-4 md:gap-6 md:mb-8">
       <div
         className="contatoLink"
       >

@@ -1,20 +1,22 @@
 import Image from "next/image";
+import Container from "../Container";
 
 export default function CardApresentação() {
   return (
     <section
-      id="sobre"
-      className="body2 w-full md:alinha4 p-2 alinha mt-0 md:pt-14"
+    id="sobre"
+    className="body2 w-full md:alinha4 p-2 alinha mt-0 md:pt-14"
     >
+      <Container>
       {/* Sessão de apresentação pessoal.  */}
-      <div className=" lg:w-[80%] text-center md:px-5 my-1 md:my-[-35px]">
-        <h3 className="text-[var(--corTexto2)] text-[1.4rem] md:text-[1.5rem] lg:text-[1.6rem] md:my-4">
+      <div className=" text-center md:px-5 my-1 md:my-[-35px]">
+        <h2 className="text-[var(--corTexto2)] md:my-4">
           Quem sou eu?
-        </h3>
-        <h2 className="text-[var(--corTexto2)] text-[1.3rem] md:text-[1.6rem] lg:text-[1.7rem] md:my-4">
-          Olá, Sou Edson Santos
         </h2>
-        <p className="text-[var(--corTexto2)] text-[1rem] md:text-[1.4rem] lg:text-[1.1rem] md:my-4">
+        <h3 className="text-[var(--corTexto2)] md:my-4">
+          Olá, Sou Edson Santos
+        </h3>
+        <p className="text-[var(--corTexto2)] text-justify md:my-4">
           Sempre fui apaixonado por tecnologia, e tudo que diz respeito a
           tecnologia me encanta. Passei muito tempo acreditando que a área da
           programação não era para mim, por conta do pouco tempo que tinha para
@@ -27,30 +29,32 @@ export default function CardApresentação() {
           esforçar ao máximo, para satisfazer as expectativas.
         </p>
       </div>
-      <div className="lg:w-[80%] flex flex-col md:alinha2 mt-4 md:p-3">
+      <div className=" flex flex-col md:alinha2 mt-4 md:p-3">
         <div className="w-full alinha5 ">
-          <div className=" w-[350px] h-[350px] md:h-[400px] lg:h-[350px] lg:w-[350px] hover:scale-105 md:w-[400px] my-2 ">
+          <div className="  hover:scale-105  my-2 ">
             <Image
+              quality={100}
               src="/um pouco.png"
               alt="Foto de perfil"
-              width={500}
-              height={500}
+              width={400}
+              height={400}
             />
           </div>
-          <div className="body3 md:w-[400px] md:h-[400px] hidden md:block hover:scale-105 my-2  ">
+          <div className="body3 hidden md:block hover:scale-105 my-2  ">
             <Image
+              quality={100}
               src="/EPS_files/9.png"
               alt="Foto de perfil"
-              width={500}
-              height={500}
+              width={400}
+              height={400}
             />
           </div>
         </div>
-        <div className=" md:w-[90%] lg:w-[60%] text-center">
-          <h3 className="text-[var(--corTexto2)] text-[1.4rem] md:text-[1.5rem] lg:text-[1.6rem] my-4  ">
+        <div className="  ">
+          <h2 className="text-[var(--corTexto2)] my-4 text-center ">
             Mais um pouco sobre mim.
-          </h3>
-          <p className="text-[var(--corTexto2)] my-4 text-[1rem] md:text-[1.4rem] lg:text-[1.1rem] ">
+          </h2>
+          <p className="text-[var(--corTexto2)] text-justify my-4 ">
             Além de ser muito esforçado e focado nos meus objetivos, tenho muita
             facilidade de lidar com pessoas e trabalhar em equipe. Trabalhei
             bastante tempo como representante comercial. Uma parte desse tempo
@@ -59,6 +63,7 @@ export default function CardApresentação() {
           </p>
         </div>
       </div>
+      </Container>
     </section>
   );
 }

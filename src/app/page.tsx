@@ -8,6 +8,7 @@ import CardTecnologia from "./components/cards/CardTecnologia";
 import CardContatos from "./components/cards/CardContatos";
 import Footer from "./components/cards/Footer";
 
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col  relative w-full">

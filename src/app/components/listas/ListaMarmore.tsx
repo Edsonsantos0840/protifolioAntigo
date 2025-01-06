@@ -9,9 +9,7 @@ import im9 from '../../../../public/EPS_files/marmore9.png'
 import im10 from '../../../../public/EPS_files/marmore10.png'
 import im11 from '../../../../public/EPS_files/marmore11.png'
 import im3 from '../../../../public/EPS_files/marmore3.png'
-import { Images } from '@/types/img'
+import { StaticImageData } from 'next/image'
 
-export const marmore: Images[] = [
-    {im1, im2, im3, im4, im5, im6, im7, im8, im9, im10, im11}
-]
+export const marmore: (StaticImageData | string)[] = [im1, im2, im3, im4, im5, im6, im7, im8, im9, im10, im11]
 
