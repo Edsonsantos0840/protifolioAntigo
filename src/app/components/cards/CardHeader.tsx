@@ -7,7 +7,7 @@ import Link from "next/link";
 //Ícones
 import { FaGithubSquare, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
-export default function CardHeader(): JSX.Element {
+export default function CardHeader(){
   return (
     <section
       id="inicio "
@@ -70,8 +70,11 @@ export default function CardHeader(): JSX.Element {
           Eu Posso te ajudar.
         </h3>
         <h3 className="text-[var(--corTexto2)] font-serif text-[1.3rem] md:text-[1.7rem] lg:text-[1.6rem] text-center my-1">
-          <AnimaTexto texto="Tenho habilidades em HTML, CSS, JavaScript, TypeScript, React, NextJs, Tailwind CSS, Mongo DB, NextAuth e Prima ORM ." />
+          {/* <AnimaTexto texto="Tenho habilidades em HTML, CSS, JavaScript, TypeScript, React, NextJs, Tailwind CSS." /> */}
         </h3>
+        <h2 className="text-[var(--corPrincipalEnd)] text-[1.1rem] md:text-[1.5rem] lg:text-[1.4rem]  ">
+           Tenho habilidades em HTML, CSS, JavaScript, TypeScript, React, NextJs, Tailwind CSS.
+        </h2>
         <p className="text-[var(--corPrincipalEnd)] text-[1rem] md:text-[1.4rem] lg:text-[1rem]  text-center ">
           Desenvolvo interfaces web intuitivas e responsivas, que proporcionam
           uma excelente experiência do usuário. Crio designs modernos e

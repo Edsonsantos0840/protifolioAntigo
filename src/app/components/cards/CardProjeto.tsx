@@ -7,17 +7,7 @@ import Link from "next/link";
 interface PropsCardProjeto {
   nome: string;
   descrição: string;
-  im1: any;
-  im2?: any;
-  im3?: any;
-  im4?: any;
-  im5?: any;
-  im6?: any;
-  im7?: any;
-  im8?: any;
-  im9?: any;
-  im10?: any;
-  im11?: any;
+ 
   tec1: string;
   tec2: string;
   tec3: string;
@@ -26,20 +16,8 @@ interface PropsCardProjeto {
   whats: string;
 }
 
-export default function CardProjeto(props: PropsCardProjeto): JSX.Element {
-  const imagens = [
-    props.im1,
-    props.im2,
-    props.im3,
-    props.im4,
-    props.im5,
-    props.im6,
-    props.im7,
-    props.im8,
-    props.im9,
-    props.im10,
-    props.im11,
-  ];
+export default function CardProjeto(props: PropsCardProjeto) {
+
 
   return (
     <>
@@ -54,7 +32,7 @@ export default function CardProjeto(props: PropsCardProjeto): JSX.Element {
                 {props.descrição}
               </p>
             </div>
-            <Carrossel images={imagens} />
+            <Carrossel />
           </div>
           <div className="alinha2 w-full gap-2 shadow-md my-3  ">
             <div className="conTec ">
